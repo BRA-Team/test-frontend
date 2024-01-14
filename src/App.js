@@ -6,6 +6,7 @@ import Home from "./Home";
 import AboutPage from "./pages/AboutPage";
 import RoomsPage from "./pages/RoomsPage";
 import Competitions from "./pages/CompetitionsPage";
+import CreateRoom from "./pages/CreateRoomPage"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/rooms" element={<RoomsPage />} />
         <Route path="/competitions" element={<Competitions />} />
+        <Route path="/createroom" element={<CreateRoom />} />
       </Routes>
     </Router>
   );

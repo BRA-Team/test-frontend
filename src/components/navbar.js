@@ -12,10 +12,10 @@ const Navbar = () => {
             <a href="about">About</a>
           </li>
           <li>
-            <a href="rooms">Rooms</a>
+            <a href="rooms">Game</a>
           </li>
           <li>
-            <a href="competitions">Competitions</a>
+            <a href="competitions">CHAT</a>
           </li>
           <li>
             <a href="signin">Log in</a>
