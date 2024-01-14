@@ -15,7 +15,7 @@ export default function RoomsExport() {
       </h3>
       <div class="row-button-group">
         <button class="button">
-          <a href="signin" style={{ textDecoration: "none", color: "inherit" }}>
+          <a href="joinroom" style={{ textDecoration: "none", color: "inherit" }}>
             JOIN A ROOM
           </a>
         </button>{" "}
@@ -27,7 +27,7 @@ export default function RoomsExport() {
       </div>
       <div class="column-button-group">
         <button class="button" style={{ width: "320px", background: "red" }}>
-          <a href="signin" style={{ textDecoration: "none", color: "inherit" }}>
+          <a href="/" style={{ textDecoration: "none", color: "inherit" }}>
             BACK
           </a>
         </button>{" "}
